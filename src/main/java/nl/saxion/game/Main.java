@@ -11,6 +11,6 @@ public class Main {
         GameApp.addScreen("YourGameScreen", new YourGameScreen());
 
         // Start game loop and show main menu screen
-        GameApp.start("Your Game Name", 800, 450, 60, false, "MainMenuScreen");
+        GameApp.start("Shadow Of Chakhotka", 800, 450, 60, false, "MainMenuScreen");
     }
 }
