@@ -1,8 +1,12 @@
 package nl.saxion.game.yourgamename;
 
 import com.badlogic.gdx.Input;
+import nl.saxion.game.ContextClasses.DrawingMainWindowContext;
+import nl.saxion.game.DrawingClasses.DrawMainMenu;
+import nl.saxion.game.DrawingClasses.DrawMainWindow;
 import nl.saxion.gameapp.GameApp;
 import nl.saxion.gameapp.screens.ScalableGameScreen;
+
 
 public class YourGameScreen extends ScalableGameScreen {
     String randomBoxColor = "violet-500";
@@ -42,6 +46,10 @@ public class YourGameScreen extends ScalableGameScreen {
         }
 
         // Draw elements
+        DrawMainWindow DWW = new DrawMainWindow();
+
+        DWW.draw(new DrawingMainWindowContext(getWorldWidth(),getWorldHeight(),centeredBox, randomBackgroundColor, randomBoxColor));
+
         GameApp.clearScreen(randomBackgroundColor);
         GameApp.startShapeRenderingFilled();
         GameApp.drawRect(boxX, boxY, centeredBox.width, centeredBox.height, randomBoxColor);

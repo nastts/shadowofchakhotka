@@ -1,6 +1,9 @@
 package nl.saxion.game.yourgamename;
 
 import com.badlogic.gdx.Input;
+import nl.saxion.game.ContextClasses.DrawingMainWindowContext;
+import nl.saxion.game.ContextClasses.DrawingMenuContext;
+import nl.saxion.game.DrawingClasses.DrawMainMenu;
 import nl.saxion.gameapp.GameApp;
 import nl.saxion.gameapp.screens.ScalableGameScreen;
 
@@ -24,10 +27,9 @@ public class MainMenuScreen extends ScalableGameScreen {
         }
 
         // Render the main menu
-        GameApp.clearScreen("black");
-        GameApp.startSpriteRendering();
-        GameApp.drawTextCentered("basic", "Start Game (press enter)", getWorldWidth()/2, getWorldHeight()/2, "amber-500");
-        GameApp.endSpriteRendering();
+        DrawMainMenu DMM = new DrawMainMenu();
+        DMM.draw(new DrawingMenuContext(getWorldWidth(),getWorldHeight()));
+
     }
 
     @Override
