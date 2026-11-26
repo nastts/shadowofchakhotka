@@ -2,6 +2,7 @@ package nl.saxion.game;
 
 import nl.saxion.game.ShadowOfChakhotka.YourGameScreen;
 import nl.saxion.game.ShadowOfChakhotka.MainMenuScreen;
+import nl.saxion.game.ShadowOfChakhotka.SettingsScreen;
 import nl.saxion.gameapp.GameApp;
 
 public class Main {

@@ -7,7 +7,7 @@ import nl.saxion.gameapp.screens.ScalableGameScreen;
 
 public class MainMenuScreen extends ScalableGameScreen {
     public MainMenuScreen() {
-        super(1680, 1020);
+        super(1280, 720);
     }
 
     @Override
