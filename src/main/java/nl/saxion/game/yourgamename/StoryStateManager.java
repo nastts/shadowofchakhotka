@@ -12,13 +12,15 @@ public class StoryStateManager {
     final int EVENT_3 = 2;
     // I guess makes sense to add endings here as well.
 
+    //I did some work on task b1
+
     final int TOTAL_EVENTS = 3;
     final int TOTAL_DAYS = 14;
 
     int[] currentStoryPoint = new int[TOTAL_EVENTS];
     int[] totalStoryPoints = {3, 3, 3}; // How many storypoints in each event according to event index.
-    boolean[] isRejected = new boolean[TOTAL_EVENTS]; // Is true for every rejected story or for stories that require more days to finish than days left.
-    boolean[] happenedToday = new boolean[TOTAL_EVENTS];
+    boolean[] isRejected = new boolean[TOTAL_EVENTS];    // Is true for every rejected story or for stories
+    boolean[] happenedToday = new boolean[TOTAL_EVENTS]; //  that require more days to finish than days left.
 
     int currentDay = 1;
     boolean rejectedTheLastStory = false;
