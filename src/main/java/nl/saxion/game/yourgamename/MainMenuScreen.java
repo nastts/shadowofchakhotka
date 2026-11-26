@@ -1,6 +1,7 @@
 package nl.saxion.game.yourgamename;
 
 import com.badlogic.gdx.Input;
+import com.badlogic.gdx.graphics.Color;
 import nl.saxion.gameapp.GameApp;
 import nl.saxion.gameapp.screens.ScalableGameScreen;
 
@@ -29,6 +30,12 @@ public class MainMenuScreen extends ScalableGameScreen {
         }
 
         GameApp.clearScreen("black");
+
+        GameApp.startShapeRenderingFilled();
+        GameApp.drawRect(getWorldWidth()/2 - 210, getWorldHeight() - 340, 450, 80, Color.BLUE);
+        GameApp.drawRect(getWorldWidth()/2 - 210, getWorldHeight() - 440, 450, 80, Color.BLUE);
+        GameApp.drawRect(getWorldWidth()/2 - 210, getWorldHeight() - 540, 450, 80, Color.BLUE);
+        GameApp.endShapeRendering();
         GameApp.startSpriteRendering();
 
         GameApp.drawTextCentered("basic", "Shadow of Chakhotka", getWorldWidth()/2, getWorldHeight() - 200, "red-800");
