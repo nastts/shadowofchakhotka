@@ -1,4 +1,4 @@
-package nl.saxion.game.yourgamename;
+package nl.saxion.game.ShadowOfChakhotka;
 
 public class Box {
     float width;

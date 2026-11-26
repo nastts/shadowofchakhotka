@@ -1,4 +1,4 @@
-package nl.saxion.game.yourgamename;
+package nl.saxion.game.ShadowOfChakhotka;
 
 import com.badlogic.gdx.Input;
 import nl.saxion.gameapp.GameApp;
@@ -6,7 +6,7 @@ import nl.saxion.gameapp.screens.ScalableGameScreen;
 
 public class MainMenuScreen extends ScalableGameScreen {
     public MainMenuScreen() {
-        super(1280, 720);
+        super(1680, 1020);
     }
 
     @Override
