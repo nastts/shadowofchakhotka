@@ -1,4 +1,4 @@
-package nl.saxion.game.yourgamename;
+package nl.saxion.game.ShadowOfChakhotka;
 
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.Color;
