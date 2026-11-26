@@ -1,12 +1,11 @@
-package nl.saxion.game.yourgamename;
+package nl.saxion.game.ShadowOfChakhotka;
 
 import com.badlogic.gdx.Input;
 import nl.saxion.gameapp.GameApp;
 import nl.saxion.gameapp.screens.ScalableGameScreen;
 
-public class YourGameScreen extends ScalableGameScreen {
-
-    public YourGameScreen() {
+public class SettingsScreen extends ScalableGameScreen {
+    public SettingsScreen() {
         super(1280, 720);
     }
 
@@ -27,7 +26,7 @@ public class YourGameScreen extends ScalableGameScreen {
 
         GameApp.startSpriteRendering();
 
-        GameApp.drawTextCentered("basic", "placeholder for game", getWorldWidth()/2, getWorldHeight()/2, "white");
+        GameApp.drawTextCentered("basic", "placeholder for settings", getWorldWidth()/2, getWorldHeight()/2, "white");
         GameApp.drawTextCentered("basic", "press enter to exit", getWorldWidth()/2, getWorldHeight()/2 - 100, "white");
 
         GameApp.endSpriteRendering();
