@@ -2,7 +2,6 @@ package nl.saxion.game.yourgamename;
 
 import com.badlogic.gdx.Input;
 import nl.saxion.game.ContextClasses.DrawingMainWindowContext;
-import nl.saxion.game.DrawingClasses.DrawMainMenu;
 import nl.saxion.game.DrawingClasses.DrawMainWindow;
 import nl.saxion.gameapp.GameApp;
 import nl.saxion.gameapp.screens.ScalableGameScreen;

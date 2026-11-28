@@ -1,7 +1,6 @@
 package nl.saxion.game.yourgamename;
 
 import com.badlogic.gdx.Input;
-import nl.saxion.game.ContextClasses.DrawingMainWindowContext;
 import nl.saxion.game.ContextClasses.DrawingMenuContext;
 import nl.saxion.game.DrawingClasses.DrawMainMenu;
 import nl.saxion.gameapp.GameApp;

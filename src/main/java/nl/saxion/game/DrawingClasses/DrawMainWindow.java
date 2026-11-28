@@ -1,6 +1,6 @@
 package nl.saxion.game.DrawingClasses;
 
-import com.badlogic.gdx.Input;
+
 import nl.saxion.game.ContextClasses.DrawingMainWindowContext;
 import nl.saxion.gameapp.GameApp;
 
